@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html>
+  <head>
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <title></title>
+
+        <!--Linking external css stylesheet to home page in order for styling to be
+            added to structure.-->
+            <link rel="stylesheet" type="text/css" href="style.css">
+        <!--End of style page.-->
+
+        <!--Internal stylesheet to specifcally style the home page.-->
+            <style>
+              .mySlides{
+                padding-top: 200px;
+                margin-left: 180px;
+              }
+
+              .button{
+                color: white;
+                background: black;
+                font-size: 18px;
+              }
+
+              #button_left{
+                margin-left: 180px;
+                color: white;
+                background: black;
+              }
+
+              #button_right{
+                margin-left: 908px;
+                color: white;
+                background: black;
+              }
+
+              .buttons{
+                margin-top: 50px;
+                margin-left: 40%;
+                margin-right: -40%;
+              }
+
+              .text_and_images{
+                  margin-left: 90px;
+                  margin-top: 80px;
+              }
+
+              #horizontal_line{
+                  margin-left: 3px;
+                  width:9%;
+              }
+
+              #container {
+                  margin: 20px;
+                  width: 200px;
+                  height: 200px;
+                  position: relative;
+              }
+
+              .paragraphs{
+                  width: 40%;
+                  margin-top: 50px;
+              }
+
+              .text_images{
+                  margin-left: 50%;
+                  margin-top: -860px;
+              }
+
+              #moreInfo_button{
+                margin-top: 450px;
+                margin-left: 90px;
+              }
+
+              #template_images{
+                  background:	#181818;
+                  margin-top: 100px;
+                  height: 400px;
+              }
+
+              #template_images img{
+                  margin-left: 155px;
+                  margin-top: 30px;
+              }
+
+              .webDesign_info h3{
+                  margin-left: 25px;
+              }
+
+              .webDesign_info, .communication_info, .problemSolving_info, .careerGuidance_info{
+                  width: 20%;
+                  margin-left: 100px;
+                  color: white;
+                  letter-spacing: 2px;
+                  word-spacing: 2px;
+                  font-size: 16px;
+              }
+
+             .communication_info{
+                  margin-left: 450px;
+                  margin-top: -185px;
+              }
+
+             .problemSolving_info{
+                  margin-left: 750px;
+                  margin-top: -170px;
+              }
+
+             .careerGuidance_info{
+                  margin-left: 1040px;
+                  margin-top: -165px;
+              }
+
+              .awesomePortfolio_info{
+                   margin-top: 20px;
+              }
+
+              .awesomePortfolio_info h2{
+                   margin-top: 80px;
+                   margin-left: 7px;
+              }
+
+              .awesomePortfolio_info img{
+                   margin-left: 10px;
+                   margin-top: 20px;
+              }
+
+              #portfolioImage{
+                   margin-left: 25px;
+                   margin-top: -350px;
+              }
+
+              #last_image{
+                  margin-top: -80px;
+                  margin-left: 680px;
+              }
+
+              .code4ct_team{
+                   margin-top: 200px;
+                   margin-left: 90px;
+              }
+
+              #emma_image{
+                   margin-left: 40%;
+                   margin-top: -130px;
+              }
+
+              .andrea_image{
+                   margin-left: -0px;
+              }
+
+              .andrea_info{
+                   margin-left: 200px;
+                   margin-top: -240px;
+              }
+
+              .emma_image{
+                   margin-top: -200px;
+                   margin-left: 830px;
+              }
+
+              .emma_info{
+                   margin-left: 1025px;
+                   margin-top: -240px;
+              }
+
+              .tracy_image{
+                   margin-top: 70px;
+                   margin-left: 90px;
+              }
+
+              .tracy_info{
+                   margin-left: 300px;
+                   margin-top: -230px;
+                   width: 250px;
+              }
+
+              .tegan_image{
+                   margin-left: 830px;
+                   margin-top: -200px;
+              }
+
+              .tegan_info{
+                   margin-left: 1020px;
+                   margin-top: -230px;
+                   width: 260px;
+              }
+
+              .subscribe_area{
+                   text-align: center;
+                   margin-top: 80px;
+              }
+
+              .icons{
+                   margin-top: 90px;
+                   background: black;
+                   height: 190px;
+              }
+
+              .icons img{
+                   margin-left: 55px;
+              }
+
+              .legal_info{
+                   margin-left: 60px;
+                   margin-top: 60px;
+                   width: 20%;
+              }
+
+              .company_info{
+                   margin-left: 400px;
+                   margin-top: -120px;
+                   width: 90%;
+              }
+
+              .support_info{
+                   margin-left: 650px;
+                   width: 100%;
+                   margin-top: -130px;
+              }
+
+              .logo_images{
+                   margin-left: 900px;
+                   margin-top: -110px;
+                   width: 100%;
+              }
+
+              .logo_paragraphs{
+                   margin-left: 60px;
+                   margin-top: -150px;
+              }
+
+              .footer{
+                   margin-top: 60px;
+                   background: #DB4E4E;
+                   width: 100%;
+                   height: 50px;
+              }
+            </style>
+        <!--End of internal stylesheet.-->
+  </head>
+  <body>
+
+        <!--Navbar with links and logo. Including a search engine.-->
+            <div class="navbar">
+              <nav>
+                 <ul><img src="http://code4ct.com/wp-content/uploads/2016/06/code4ct-logo-1.jpg" alt="Logo">
+                   <li><a href="home page.html">Home</a></li>
+                   <li><a href="courses_page.html">Courses</a></li>
+                   <li><a href="about_page.html">About</a></li>
+                   <li><a href="portfolio_page.html">Portfolio</a></li>
+                   <li><a href="contact_page.html">Contact</a></li>
+                 </ul>
+
+             </nav>
+            </div>
+        <!--End of navbar.-->
+
+        <!--Carousel images and buttons.-->
+            <div class="w3-content w3-display-container">
+              <img class="mySlides" src="Images\carousel 1.jpg">
+              <img class="mySlides" src="Images\carousel2.jpg">
+              <img class="mySlides" src="Images\carousel 3 (3).JPG">
+              <img class="mySlides" src="Images\carousel 4.jpg">
+
+              <button id="button_left" class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+              <button id="button_right" class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+            </div>
+
+        <!--Buttons appearing beneath the carousel.-->
+            <button class="buttons"> READ MORE </button>
+            <button class="buttons"> DONATE NOW </button>
+        <!--End of buttons.-->
+
+        <!--Text beneath two buttons.-->
+            <div class="text_and_images">
+              <h2>What We Do</h2>
+                <hr id="horizontal_line">
+
+            <div class="paragraphs">
+              <p>Code for Cape Town strives to see young women empowered to leverage technology for social innovation, so that there is greater diversity in the African tech industry.  Code for Cape Town equips high potential female learners with the coding, problem solving and life skills that will allow them to leverage technology to contribute meaningfully to South Africa’s innovation system.</p>
+
+              <h2>We teach coding</h2>
+                <p> Grade 10 learners are introduced to web development and work on a real life coding project during a two week holiday program. During this time they are exposed to numerous innovative tech companies and aspirational female mentors. Following this introduction, learners gain a solid grounding in front-end web development over 6 months of weekly lessons. The course builds towards learners being able to create a data-driven web app and focuses on collaborative skills.</p>
+                <p>With a foundational knowledge of front-end web development, Grade 11 learners are afforded the opportunity to explore niche areas of the tech industry by pursuing specialisations such as front end web design, backend web development, data analysis & visualisation, and game development.</p>
+                <p>Through doing so learners are equipped with programming fundamentals and industry relevant coding skills. We aim to develop autodidactic learners who are able to further their own knowledge through independent learning.</p>
+
+              <h2>We foster innovativeness</h2>
+                <p>Throughout the program our young coders work in groups to solve real-life problems. They are exposed to an enabling professional network of tech companies, tutors, mentors and likeminded peers.</p>
+                <p>Through doing so, they foster the ability to communicate effectively, collaborate and apply critical thinking to solve complex problems. Learners perceive that they are capable of leveraging technology to create valuable solutions, and see technology as a powerful tool to create social change.</p>
+
+              <h2>We prepare learners for a 21st century environment</h2>
+                <p>Our coders are required to work in a collaborative, self-directed manner; taking responsibility for their own learning, working in culturally diverse groups, and responding efficiently to change.</p>
+                <p>Through self reflection and small group mentoring, learners are guided in developing critical life and career skills. Our framework focuses on the following life skills: Flexibility & Adaptability, Initiative and Self Direction, Social and Cross Cultural Skills, Productivity & Accountability, Leadership & Responsibility.</p>
+                <p>Through encouraging learners to embrace reflective practices, we aim to help our young coders become resilient young people who are able to thrive in a 21st century work environment.</p>
+              </div>
+            </div>
+        <!--End of text.-->
+
+        <!--Images displaying on the right-hand-side of the above-mentioned
+            text.-->
+            <div class="text_images">
+              <img src="Images\text_image1 (2).JPG">
+              <img style="margin-left: 40px;" src="Images\text_image2.jpg"> <br>
+              <img src="Images\text_image3.jpg">
+              <img style="margin-left: 40px; margin-top: 20px;"src="Images\text_image5 (2).JPG">
+            </div>
+        <!--End of images.-->
+
+        <!--'Read More' button beneath the text with images.-->
+            <button id="moreInfo_button"><b>Read More</button>
+        <!--End of button.-->
+
+        <!--Template/icon images beneath button.-->
+            <div id="template_images">
+              <img src="Images\web design.png">
+              <img src="Images\multimedia.png">
+              <img src="Images\wrench.png">
+              <img src="Images\sheet.png">
+
+            <div class="webDesign_info">
+              <h3>Coding</h3>
+                <p>Learn how to build your own websites using HTML, CSS, JavaScript & JQuery. Go on to explore exciting modules from game development to user experience design.</p>
+            </div>
+
+            <div class="communication_info">
+              <h3>Communication</h3>
+                <p>Learn how to pitch ideas, represent yourself online, communicate professionally and work with online collaboration tools.</p>
+            </div>
+
+            <div class="problemSolving_info">
+              <h3>Problem Solving</h3>
+                <p>Apply your coding skills to issues you are interested in. You will learn how to tackle complex problems using the design thinking process.</p>
+            </div>
+
+            <div class="careerGuidance_info">
+              <h3>Career Guidance</h3>
+              <p>Explore future options by meeting different companies doing exciting things with technology. We offer career testing and connect you to our network of study institutions and bursary programs.</p>
+            </div>
+          </div>
+      <!--End of templates/icons.-->
+
+      <!--JavaScript linked to html file.-->
+          <script src="home.js"></script>
+      <!--End of JavaScript link.-->
+
+      <!--Portfolio information.-->
+          <div class="awesomePortfolio_info">
+            <h2>Our Awesome Portfolio</h2>
+            <img src="Images\awesome portfolio.jpg">
+            <img style="margin-left: 20px;" src="Images\awesome portfolio2.jpg"><br>
+            <img src="Images\portfolio.JPG">
+            <img style="margin-left: 18px;" src="Images\portfolio 4 (2).JPG">
+          </div>
+
+          <div id="last_image">
+              <img id="portfolioImage" src="Images\awesome portfolio3.jpg">
+          </div>
+      <!--End of portfolio information.-->
+
+      <!--Displaying the team members of Code 4 Cape Town. Each member is placed
+          within a div class with headings and needed paragraph tags.-->
+          <div class="code4ct_team">
+            <h2>Meet Our Team</h2>
+            <h3>Core team</h3>
+
+          <div class="andrea_image">
+            <img src="Team\Andrea.jpg" alt="Andrea">
+          </div>
+
+          <div class="andrea_info">
+            <h3>Operations Lead</h3>
+              <p style="width: 250px;">Andrea thrives on seeing key players in the Code4CT ecosystem discover how they can make the greatest impact. When she is not co-ordinating the Code4CT family she can be found enjoying the diverse cuisine and great outdoors that Cape Town has to offer.</p>
+              <img src="Images\cropped social media logos.PNG" alt="Social media logos">
+              <img style="margin-left:-5px;" src= "Images\cropped google.PNG">
+              <img style="margin-left:-5px;" src="Images\cropped linkedin.PNG">
+              <img style="margin-left: -5px;" src="Images\cropped skype.PNG" alt="Skype logo">
+          </div>
+        </div>
+
+        <div class="emma_image">
+          <img src="Team\Emma.jpg" alt="Emma">
+        </div>
+
+        <div class="emma_info">
+          <h3>Founder and Director</h3>
+            <p style="width: 250px;">Emma is passionate about providing high quality education that enables young people to bring innovative ideas to life and play an active role in South Africa’s economy.
+            Aside from her work at Code4CT, Emma advocates for tech education through acting as an Ambassador for Africa Code Week and coordinating the #eSkills4Girls network in Africa.</p>
+            <img src="Images\cropped social media logos.PNG" alt="Social media logos">
+            <img style="margin-left:-5px;" src= "Images\cropped google.PNG">
+            <img style="margin-left:-5px;" src="Images\cropped linkedin.PNG">
+            <img style="margin-left: -5px;" src="Images\cropped skype.PNG" alt="Skype logo">
+        </div>
+
+        <div class="tracy_image">
+          <img id="tracy_image" src="Team\Tracy.jpg" alt="Tracy">
+        </div>
+
+        <div class="tracy_info">
+           <h3>Leadership Program Manager</h3>
+             <p>Tracy joined the Code4CT program in 2015 and then matriculated from Rustenburg Girls’ High in 2016. She decided to intern with Code4CT to give back to an organisation that had a large impact on her personal growth and development.</p>
+             <img src="Images\cropped social media logos.PNG" alt="Social media logos">
+             <img style="margin-left:-5px;" src= "Images\cropped google.PNG">
+             <img style="margin-left:-5px;" src="Images\cropped linkedin.PNG">
+             <img style="margin-left: -5px;" src="Images\cropped skype.PNG" alt="Skype logo">
+        </div>
+
+        <div class="tegan_image">
+           <img src="Team\Tegan.jpg" alt="Tegan">
+        </div>
+
+        <div class="tegan_info">
+          <h3>Program Lead</h3>
+          <p>Tegan heads up the high school program. She is spurred on by a heart for people and seeing them pursue their potential in a safe, fun and nurturing environment.</p>
+          <img src="Images\cropped social media logos.PNG" alt="Social media logos">
+          <img style="margin-left:-5px;" src= "Images\cropped google.PNG">
+          <img style="margin-left:-5px;" src="Images\cropped linkedin.PNG">
+          <img style="margin-left: -5px;" src="Images\cropped skype.PNG" alt="Skype logo">
+        </div>
+    <!--End of div classes for team members.-->
+
+    <!--Input text area for users to enter their email address and to submit
+        it. It is placed within a div class and has a header.-->
+        <div class="subscribe_area">
+          <h3>SUBSCRIBE TO US</h3>
+          <input id="user_email"type="text" placeholder="enter your email"> <button id="user_button">Submit</button>
+        </div>
+    <!--End of input text area.-->
+
+    <!--The following displays different brands sponsoring Code 4 Cape Town.-->
+        <div class="icons">
+          <img style="margin-left: 40px;" src="Images\icon1.jpg" alt="">
+          <img style="margin-left: 60px;"src="Images\icon2.jpg" alt="">
+          <img src="Images\icon3.jpg" alt="">
+          <img src="Images\icon4.jpg" alt="">
+        </div>
+    <!--End of brands.-->
+
+    <!--Company information beneath the icons (images).-->
+        <div class="legal_info">
+          <h3>Legal</h3>
+            <p>Code for Cape Town is a project of Innovate South Africa, which is a registered non-profit (137806NPO) and a Public Beneficiary Organisation (930050338)</p>
+
+        <div class="company_info">
+          <h3>Company</h3>
+            <li>About Us</li>
+            <li>Contact Us</li>
+            <li>Blog</li>
+            <li>Testimonials</li>
+            <li>Affiliate Program</li>
+        </div>
+
+        <div class="support_info">
+          <h3>Help & Support</h3>
+            <li>Help centre</li>
+            <li>Free simple template</li>
+            <li>Refund policy</li>
+            <li>Report span</li>
+        </div>
+
+        <div class="logo_images">
+          <img src="Images\logo images.PNG" alt="">
+
+        <div class="logo_paragraphs">
+          <p>021 685 0991</p>
+          <p style="margin-top: 30px;">info@code4ct.com</p>
+          <p style="margin-top: 30px;">Innovate South Africa,
+             403 Old Castle Brewery, 6 Beach Rd,
+             Woodstock, Cape Town, 7915</p>
+        </div>
+        </div>
+        </div>
+    <!--End of company information.-->
+
+    <!--Social media icons at the bottom of the webpage.-->
+        <div class="footer">
+          <p>copyrite <img style="margin-top: 8px;" src="Images\tick box.PNG" alt="Tick box"> 2017 PRIVACY POLICY <p>
+          <p style="margin-left: 800px; margin-top: -40px;">Follow us:
+          <a href= "https://www.facebook.com/code4ct/"> <img src= "Images\white facebook.PNG" target = "_blank"></a>
+          <a href= "https://twitter.com/code4ct?lang=en"> <img src= "Images\white tweet.PNG" target = "_blank"></a>
+          <a href= "https://www.facebook.com/code4ct/"> <img src= "Images\white.PNG" target = "_blank"></a>        <a href= "https://www.google.co.za/search?rlz=1C1CHFX_enZA757ZA757&ei=pZMNWuD8OInDgAbxgaPYAg&q=code4ct+google+&oq=code4ct+google+&gs_l=psy-ab.3..0i71k1l4.5003.5003.0.5230.1.1.0.0.0.0.0.0..0.0....0...1.1.64.psy-ab..1.0.0....0.fCxg5LV_IOQ"> <img src= "Images\white google.png" target = "_blank"></a>
+          <a href= "http://code4ct.com/instagram/"> <img src= "Images\white instagram.PNG" target = "_blank"></a>
+          <a href= "https://www.google.co.za/search?q=code4ct.+skype&rlz=1C1CHFX_enZA757ZA757&oq=code4ct.+skype&aqs=chrome..69i57l2j69i60l2.3960j0j7&sourceid=chrome&ie=UTF-8"> <img src= "Images\white skype.PNG" target = "_blank"></a>
+          </p>
+        </div>
+     <!--End of social media icons.-->
+
+  </body>
+</html>
